@@ -1,0 +1,61 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  background: linear-gradient(to right, #f5f7fa, #c3cfe2);
+  color: #333;
+}
+
+h1 {
+  color: #6b46c1;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 12px;
+  width: 300px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  background-color: #6b46c1;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #5a37a8;
+}
+
+.transaction-card {
+  background: #fff;
+  margin: 15px auto;
+  padding: 15px 20px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.transaction-card p {
+  margin: 6px 0;
+  font-size: 0.95rem;
+  word-break: break-all; /* Wrap long hashes */
+  margin: 4px 0; /* Clean spacing between lines */
+}
+/* Container for scrolling transaction list */
+.transaction-list-container {
+  max-height: 400px; /* Adjust height as needed */
+  overflow-y: auto; /* Enable vertical scroll */
+  margin-top: 20px;
+  padding-right: 10px; /* For smoother scroll */
+}
+
